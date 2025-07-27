@@ -98,6 +98,23 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events .table {
+    font-size: 0.7rem;
+}
+
+.student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    /* display: block; */
+    max-width: 300px;
+    margin: auto;
+    font-weight: bold;
+}
+
 /* Games library cards */
 
 #new-games .card,
@@ -154,6 +171,17 @@ h2 {
 } */
 
 /* Media Queries */
+
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    #events .table {
+        font-size: 1rem;
+    }
+
+    .student-discount {
+        font-size: 1 rem;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
